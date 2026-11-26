@@ -1,0 +1,15 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.tiktokkot'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.tiktokkot'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+}
+dependencies {
+    compileOnly 'de.robv.android.xposed:api:82'
+}
